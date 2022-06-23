@@ -1,6 +1,6 @@
 <script setup>
   import { ref } from 'vue'
-  
+  import licensePlate from '../../components/licensePlate'
   const licensePlateRef = ref()
 
   const handleClick = () => {
