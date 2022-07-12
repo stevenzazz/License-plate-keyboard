@@ -13,6 +13,6 @@
 
 </script>
 <template>
-   <nut-button type="primary" @click="handleClick">点我</nut-button>
+   <button type="primary" @click="handleClick">点我</button>
    <licensePlate ref="licensePlateRef" @confirm="licensePlateConfirm" />
 </template>
